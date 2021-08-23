@@ -83,27 +83,42 @@ p{
 #description{
     display: inline-block;
     flex-wrap: wrap;
-    float:right;
     line-height: 20px;
     width: 20%;
     margin-right: 200px;
 }
 
 #myWork{
-    float:right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .myWork2{
-    width: 130px;
-    height:130px;
-    padding:10px;
-    margin-left: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 20px;
+    width: 120px;
+    height: 90px;
+    margin-right: 100px;
+};
+
+#linkss{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
 }
 
-.linkss{
-    display: inline-flex;
-    padding-right: 20px;
-    margin-right: 160px;
+.linkss2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
 }
 
 #Contact{
@@ -117,9 +132,7 @@ p{
 #formcenter{
     display: inline;
     align-items: center;
-    width: 50%;
-    
-    
+    width: 50%;  
 }
 
 #submit{
@@ -136,7 +149,27 @@ footer{
 
 
 @media screen and (max-width: 1200px){
-    header, #description, #about, #linkss {
+    header, #description, #about, #linkss, #myWork {
       flex-direction: column;
       margin:auto;
+      padding-top: 10px;
     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+       
+  h1{
+      display: none;
+  }
+  h2{
+      font-size: 50px;
+  }
+
+  #description{
+    width: 100%;
+ 
+}
+
+}

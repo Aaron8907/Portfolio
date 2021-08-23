@@ -11,7 +11,7 @@ For the HTML:
 * Used alt attributes
 * As I currently do not have any applications developed used images
 * Used links to access LinkedIn, Github and to send an email
-*Added contact form
+* Added contact form
 
 ## CSS
  For the CSS :
