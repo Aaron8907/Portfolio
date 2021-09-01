@@ -11,6 +11,7 @@ body{
     border-radius: 10px;
     width: 100%;
     height: 100px;
+    margin: 10px;
 }
 
 nav{
@@ -38,11 +39,11 @@ li{
 
 h1{
     font-weight: bolder;
-    font-size: 175px;
+    font-size: 100px;
 }
 
 h2{
-    font-size: 150px;
+    font-size: 75px;
     display: inline;
 }
 
@@ -53,8 +54,7 @@ h2{
     background-image: url(https://wallpapercave.com/wp/iqrBViX.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%; 
-    justify-content: flex-end;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    margin: -10px;
 }
 
 p{
