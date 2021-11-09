@@ -1,0 +1,45 @@
+
+body{
+    background: rgb(154,199,110);
+    background: linear-gradient(90deg, rgba(154,199,110,1) 2%, rgba(30,57,34,1) 47%, rgba(42,41,44,1) 98%);
+    background-size: cover;
+}
+
+.myWork2{
+    width: 200px;
+    height: 120px;
+}
+
+.container{
+    width: 500px;
+    height:500px;
+}
+
+.bgImage{
+background-image: url("https://miro.medium.com/max/1200/0*setG5WPmk3QZZBCN");
+background-repeat: no-repeat;
+height: 80vh;
+background-size: cover;
+}
+
+#about, #myWork, #contactMe {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#contactMe{
+    padding-bottom: 0px;
+}
+
+#myPic{
+    border-radius: 20px;
+}
+
+h2{
+    text-size-adjust: 100px;
+}
+
+p{
+    margin:5px;
+    padding:5px;
+}
